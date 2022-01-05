@@ -14,8 +14,6 @@ end switch
 read  age
 read job
 if (age < 59) 
-else  if (job.equals("military") || job.equals("hospital") )
-print("the vaccine is mandatory");
 else (for else if) 
 print("The vaccine is a personal choice. ");
 end if

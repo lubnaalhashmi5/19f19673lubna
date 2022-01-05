@@ -1,0 +1,29 @@
+declarations I, age, civil number as int 
+declarations disease as char ,job as string
+do while loop
+read civil number 
+read disease (y/n)
+switch (disease)
+case 'n': or  case 'N':
+print("You are able to receive a vaccination. ")
+case 'y': or case 'Y':
+print("You are unable to receive a vaccination. ");
+default case
+print("error you should choose y or n")
+end switch
+read  age
+read job
+if (age < 59) 
+else  if (job.equals("military") || job.equals("hospital") )
+print("the vaccine is mandatory");
+else (for else if) 
+print("The vaccine is a personal choice. ");
+end if
+else 
+print("the vaccine is mandatory");
+end if
+print ("Continue(Y/N)");
+read a 
+end do while loop 
+ 
+
